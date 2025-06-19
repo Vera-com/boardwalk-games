@@ -98,6 +98,10 @@ margin-right: 15px;
 #contact .social-links i:hover {
     color: var(--secondary-color);
 }
+
+#contact .table-dark *{
+    background-color: transparent;
+}
  /* Grid visualisation CSS for testing 
  .container,
  .row {
