@@ -169,14 +169,14 @@
 <div class="col-12 col-md-6 col-xl-3">
     <div class="card">
         <img src="assets/images/new-games-2.webp" class="card-img-top"
-            alt="Mystic woods board game box" />
+            alt="Mystic woods board game box">
         <div class="card-body">
             <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
             <h3 class="card-title sub-heading-color">Mystic Woods</h3>
             <p class="card-text">
                Enter the enchanted forest of Mystic Woods. Combine spells, gather mystical creatures, and solve puzzles to protect the realm.
             </p>
-         <p> <em>Number of players:</em> 1-6</p>
+         <p><em>Number of players:</em> 1-6</p>
             <p><em>Ages:</em> 10+</p>
         </div>
     </div>
@@ -209,6 +209,7 @@
         </div>
     </div>
 </div>
+</div>
    </section>
 
 <!-- Favourite Games Section -->
@@ -220,7 +221,7 @@
 <div class="col-12 col-md-6 col-xl-3">
     <div class="card">
         <img src="assets/images/fav-games-1.webp" class="card-img-top"
-            alt="Settlers of Catan board game" >
+            alt="Settlers of Catan board game">
         <div class="card-body">
             <h3 class="card-title sub-heading-color">Settlers of Catan</h3>
             <p class="card-text">
@@ -234,7 +235,7 @@
 <div class="col-12 col-md-6 col-xl-3">
     <div class="card">
         <img src="assets/images/fav-games-2.webp" class="card-img-top"
-            alt="Monopoly board game" />
+            alt="Monopoly board game">
         <div class="card-body">
             <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
             <h3 class="card-title sub-heading-color">Monopoly</h3>
@@ -274,25 +275,19 @@
         </div>
     </div>
 </div>
+</div>
    </section>
 
    <!-- Game reservation form section -->
-   <section id="reserve" class="container section">
-        
-         <div class="col-12 text-center">
-    <h2 class="display-6"> Reserve a game</h2>
-    </div>
-    <div class="col-12">
-    <p class="my-6">
+
+<section id="booking-form"  class="section container mb-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+             <h2 class="display-6 text-center"> Reserve a game</h2>
+             <p>
     Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.
 </p>
-
-</div>
-</section>
-<section id="booking-form" class="container section">
-        <div class="row justify-content-center">
-            <div class="col-12 xl-6">
-
+         <!-- Game Form -->
                 <form action="success.html" method="Get">
                     <div class="row">
                         <div class="col-12 col-lg-4 mb-3">
@@ -310,8 +305,8 @@
                         </div>
                         
                         <div class="col-12 col-lg-8 mb-3">
-                            <label for="Game selection " class="form-label">Select game </label>
-                            <select id="Game selection " class="form-select" name="Game selection " required>
+                            <label for="game-selection" class="form-label">Select game </label>
+                            <select id="game-selection" class="form-select" name="game-selection" required>
                                 <option value="" selected>Select game</option>
                                 <option value="Galaxy Pioneers">Galaxy Pioneers</option>
                                 <option value="Mystic Woods">Mystic Woods</option>
@@ -333,6 +328,7 @@
                 </form>
             </div>
         </div>
+  
     </section>
  </main>
 
